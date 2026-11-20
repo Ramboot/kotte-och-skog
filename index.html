@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kotte &amp; Skog — Handplockade kottar från svenska skogar</title>
+  <meta name="description" content="Köp handplockade, ugnstorkade tallkottar, grankottar, lärkkvistar, kottkransar och naturliga braständkottar i svenskt bivax. Direkt från Dalarna och Värmland." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="store-shell">
+    <!-- Top Announcement Bar -->
+    <div class="announcement-bar">
+      Fri frakt över 499 kr · Använd kod <strong>SKOG10</strong> i kassan för 10 % rabatt på din första skörd
+    </div>
+
+    <!-- Sticky Header -->
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href="#" class="brand-mark" aria-label="Kotte &amp; Skog startsida">
+          <svg class="brand-icon" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M16 4c-4.5 3-8 8.2-8 14.5C8 23.8 11.6 28 16 28s8-4.2 8-9.5C24 12.2 20.5 7 16 4Z" />
+            <path d="M10.2 13.2C12.2 14.6 14 15.2 16 15.2s3.8-.6 5.8-2" />
+            <path d="M8.6 18.6c2.4 1.6 4.9 2.3 7.4 2.3s5-.7 7.4-2.3" />
+            <path d="M16 4v24" />
+            <path d="M12.5 8.5 16 11l3.5-2.5" />
+          </svg>
+          <div>
+            <span class="brand-name">KOTTE &amp; SKOG</span>
+            <span class="brand-sub">Siljansnäs · Dalarna</span>
+          </div>
+        </a>
+
+        <nav class="main-nav" id="main-nav" aria-label="Huvudmeny">
+          <a href="#sortiment">Sortiment</a>
+          <a href="#hantverk">Vårt hantverk</a>
+          <a href="#skotsel">Skötselråd</a>
+          <a href="#foretag">Florister &amp; Företag</a>
+        </nav>
+
+        <div class="header-actions">
+          <button type="button" class="cart-trigger" id="cart-trigger" aria-label="Öppna varukorg">
+            <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z" />
+              <line x1="3" y1="6" x2="21" y2="6" />
+              <path d="M16 10a4 4 0 0 1-8 0" />
+            </svg>
+            <span>Varukorg</span>
+            <span class="cart-badge" id="cart-count">0</span>
+          </button>
+
+          <button type="button" class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Öppna meny" aria-expanded="false">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+              <line x1="3" y1="7" x2="21" y2="7" />
+              <line x1="3" y1="12" x2="21" y2="12" />
+              <line x1="3" y1="17" x2="21" y2="17" />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- Hero Section -->
+      <section class="hero">
+        <div class="container hero-grid">
+          <div>
+            <p class="hero-eyebrow">Höst- &amp; vinterskörd · Dalarna &amp; Värmland</p>
+            <h1 class="hero-title">Handplockade kottar från svenska skogar</h1>
+            <p class="hero-lead">
+              Skonsamt ugnstorkade, borstade för hand och sorterade efter form och lyster. För säsongens dukningar, kransbindning, skapande och en ren, väldoftande brasa.
+            </p>
+            <div class="hero-cta-row">
+              <a href="#sortiment" class="btn btn-primary" id="hero-shop-cta">Utforska sortimentet</a>
+              <a href="#hantverk" class="btn btn-secondary">Så bereds kottarna</a>
+            </div>
+            <div class="hero-trust">
+              <span class="hero-trust-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12" /></svg>
+                Ugnstorkade &amp; insektsfria
+              </span>
+              <span class="hero-trust-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12" /></svg>
+                100 % plastfri leverans
+              </span>
+              <span class="hero-trust-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12" /></svg>
+                Skickas inom 24 timmar
+              </span>
+            </div>
+          </div>
+
+          <div class="hero-media">
+            <div class="hero-image-frame">
+              <img id="hero-img" src="images/hero.jpg" alt="Handplockade svenska tall- och grankottar på oblekt linne och björkbord i morgonljus" />
+            </div>
+            <div class="hero-caption">
+              <span>Årets skörd från Siljansnäs &amp; Älvdalen</span>
+              <span>Pinus sylvestris · Picea abies · Larix decidua</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Catalog Section -->
+      <section class="section" id="sortiment">
+        <div class="container">
+          <div class="section-header">
+            <div>
+              <p class="section-eyebrow">Butik</p>
+              <h2 class="section-title">Säsongens utvalda kottar</h2>
+              <p class="section-subtitle">
+                Varje påse och låda packas för hand i vår verkstad vid Siljan. Klicka på en produkt för att välja storpack eller läsa mer.
+              </p>
+            </div>
+          </div>
+
+          <div class="catalog-toolbar">
+            <div class="filter-tabs" role="group" aria-label="Filtrera på kategori">
+              <button type="button" class="filter-tab active" data-category="alla" aria-pressed="true">Alla (6)</button>
+              <button type="button" class="filter-tab" data-category="dekoration" aria-pressed="false">Dekoration</button>
+              <button type="button" class="filter-tab" data-category="kransar" aria-pressed="false">Kransar &amp; Kvistar</button>
+              <button type="button" class="filter-tab" data-category="brasa" aria-pressed="false">Brasa &amp; Present</button>
+            </div>
+
+            <div class="catalog-controls">
+              <div class="search-box">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <circle cx="11" cy="11" r="8" />
+                  <line x1="21" y1="21" x2="16.65" y2="16.65" />
+                </svg>
+                <input type="search" id="catalog-search" class="search-input" placeholder="Sök kotte eller art..." aria-label="Sök i sortimentet" />
+              </div>
+
+              <select id="catalog-sort" class="sort-select" aria-label="Sortera produkter">
+                <option value="popular">Populärast</option>
+                <option value="price-asc">Pris: lägst först</option>
+                <option value="price-desc">Pris: högst först</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="product-grid" id="product-grid" aria-live="polite"></div>
+        </div>
+      </section>
+
+      <!-- Craftsmanship Process -->
+      <section class="section section-paper" id="hantverk">
+        <div class="container">
+          <p class="section-eyebrow">Från skog till bord</p>
+          <h2 class="section-title">Varför kottar som behandlats med omsorg gör skillnad</h2>
+          <p class="section-subtitle">
+            En kotte direkt från marken bär ofta fukt, kåda och små skogsgäster. Vi förbereder varje skörd så att du kan ta in naturen utan besvär.
+          </p>
+
+          <div class="process-grid">
+            <div class="process-step">
+              <div class="process-num">01 / SKÖRD</div>
+              <h3>Varsam plockning från marken</h3>
+              <p>
+                Vi samlar endast mogna kottar som redan fallit naturligt efter torra höstdagar i hållbart brukade skogar i Dalarna och Värmland — alltid i samarbete med lokala markägare.
+              </p>
+            </div>
+
+            <div class="process-step">
+              <div class="process-num">02 / TORKNING</div>
+              <h3>Långsam ugnstorkning vid 95 °C</h3>
+              <p>
+                Varje omgång borstas ren från barr och jord och värmebehandlas varsamt. Det tar bort eventuella insekter, mjukar upp kåda och får fjällen att slå ut i sin mest symmetriska form.
+              </p>
+            </div>
+
+            <div class="process-step">
+              <div class="process-num">03 / SORTERING</div>
+              <h3>Handsorterade &amp; plastfritt packade</h3>
+              <p>
+                Vi delar in kottarna efter storlek och helhet och bäddar dem i svensk träull, kraftpapper och oblekt jutesnöre. Hela paketet är komposterbart eller återvinningsbart.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Care & Botany FAQ -->
+      <section class="section" id="skotsel">
+        <div class="container care-layout">
+          <div>
+            <p class="section-eyebrow">Skötselråd &amp; Botanik</p>
+            <h2 class="section-title">Ett levande naturmaterial som följer årstiderna</h2>
+            <p class="section-subtitle">
+              Kottar fortsätter reagera på luftfuktigheten även långt efter att de fallit från trädet. Med enkel förvaring håller de i många år.
+            </p>
+            <div class="care-note">
+              <div class="care-note-title">Visste du att kottar fungerar som hygrometer?</div>
+              <p>
+                I torr inomhusluft öppnar fjällen upp sig helt för att släppa ut frön. Ställer du ut en krans i fuktigt höstväder sluter sig fjällen försiktigt — och öppnar sig igen när luften torkar.
+              </p>
+            </div>
+          </div>
+
+          <div class="accordion-list">
+            <div class="accordion-item open">
+              <button type="button" class="accordion-trigger">
+                <span>Hur ska jag förvara mina kottar mellan säsongerna?</span>
+                <svg class="accordion-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19" /><line x1="5" y1="12" x2="19" y2="12" /></svg>
+              </button>
+              <div class="accordion-panel">
+                <div class="accordion-panel-inner">
+                  <p>
+                    Förvara dem torrt i en pappkartong, tygpåse eller trälåda — aldrig i täta plastpåsar där restfukt kan stängas in. Då behåller de sin färg och form i åratal.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <button type="button" class="accordion-trigger">
+                <span>Hur använder man braständkottarna på bästa sätt?</span>
+                <svg class="accordion-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19" /><line x1="5" y1="12" x2="19" y2="12" /></svg>
+              </button>
+              <div class="accordion-panel">
+                <div class="accordion-panel-inner">
+                  <p>
+                    Placera en bivaxkotte under ett par kluvna, torra vedträn med luft emellan. Tänd bomullsveken i toppen — inom några sekunder brinner kotten med stabil låga i 10–12 minuter utan kemisk rök.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <button type="button" class="accordion-trigger">
+                <span>Är kottarna säkra att använda inomhus och till pyssel med barn?</span>
+                <svg class="accordion-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19" /><line x1="5" y1="12" x2="19" y2="12" /></svg>
+              </button>
+              <div class="accordion-panel">
+                <div class="accordion-panel-inner">
+                  <p>
+                    Ja. Alla våra dekorationskottar är helt obehandlade med lack, blekmedel eller doftoljor. De är enbart mekaniskt borstade och ugnstorkade för att vara rena och insektsfria.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <button type="button" class="accordion-trigger">
+                <span>Kan kottkransen hänga utomhus i snö och regn?</span>
+                <svg class="accordion-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19" /><line x1="5" y1="12" x2="19" y2="12" /></svg>
+              </button>
+              <div class="accordion-panel">
+                <div class="accordion-panel-inner">
+                  <p>
+                    Kransen trivs bäst inomhus eller på en ytterdörr under tak. Kottarna klarar kyla utmärkt, men om de blir genomblöta under lång tid drar fjällen ihop sig tillfälligt.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Florist & B2B Band -->
+      <section class="b2b-band" id="foretag">
+        <div class="container b2b-grid">
+          <div>
+            <p class="b2b-eyebrow">Partiförsäljning · Florister &amp; Inredare</p>
+            <h2 class="b2b-title">Behöver ni kottar i storsäck till butik, hotell eller juldukning?</h2>
+            <p class="b2b-text">
+              Vi levererar sorterade 50-liters jutesäckar med tall-, gran- och lärkkottar direkt från Dalarna med fast företagspris och faktura på 30 dagar.
+            </p>
+          </div>
+          <div class="b2b-action">
+            <button type="button" class="btn btn-light" id="open-b2b-btn">Begär företagsoffert</button>
+            <span class="b2b-meta">Svar inom 24 timmar · Minsta volym 1 storsäck</span>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div>
+            <div class="brand-name">KOTTE &amp; SKOG</div>
+            <p class="footer-about">
+              Småskalig svensk kottbutik i Siljansnäs. Handplockade, ugnstorkade skogskottar för hem, brasa och hantverk sedan 2021.
+            </p>
+          </div>
+
+          <div>
+            <div class="footer-heading">Sortiment</div>
+            <ul class="footer-links">
+              <li><a href="#sortiment">Tallkottar</a></li>
+              <li><a href="#sortiment">Grankottar</a></li>
+              <li><a href="#sortiment">Lärkkvistar &amp; Kransar</a></li>
+              <li><a href="#sortiment">Braständkottar i bivax</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <div class="footer-heading">Kontakt</div>
+            <ul class="footer-links">
+              <li>hej@kotteochskog.se</li>
+              <li>Skogsvägen 8, 793 60 Siljansnäs</li>
+              <li>Mån–Fre 09:00–16:00</li>
+              <li>Fri frakt över 499 kr</li>
+            </ul>
+          </div>
+
+          <div>
+            <div class="footer-heading">Skördebrevet</div>
+            <p style="font-size:13.5px;color:var(--ink-secondary);line-height:1.55;">
+              Få besked när höstens färska skörd och julens handbundna kransar läggs ut.
+            </p>
+            <form id="newsletter-form" class="newsletter-form">
+              <label for="newsletter-email" class="sr-only">Din e-postadress</label>
+              <input id="newsletter-email" type="email" required class="newsletter-input" placeholder="din@epost.se" />
+              <button type="submit" class="btn btn-primary" style="padding:0 16px;height:40px;">Gå med</button>
+            </form>
+            <div id="newsletter-msg" class="newsletter-msg" role="status"></div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <span>© 2026 Kotte &amp; Skog i Dalarna AB</span>
+          <span>100 % plastfri leverans · PostNord &amp; Instabox</span>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Backdrop -->
+    <div class="backdrop" id="backdrop"></div>
+
+    <!-- Shopping Cart Slide-Over Drawer -->
+    <aside class="cart-drawer" id="cart-drawer" aria-label="Varukorg" aria-hidden="true">
+      <div class="drawer-header">
+        <h2 class="drawer-title">Din varukorg</h2>
+        <button type="button" class="icon-close" id="cart-close" aria-label="Stäng varukorg">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18" /><line x1="6" y1="6" x2="18" y2="18" /></svg>
+        </button>
+      </div>
+
+      <div class="shipping-meter">
+        <div id="shipping-text">Fri frakt vid köp över 499 kr</div>
+        <div class="shipping-bar-track">
+          <div class="shipping-bar-fill" id="shipping-bar" style="width: 0%"></div>
+        </div>
+      </div>
+
+      <div class="drawer-body" id="cart-body"></div>
+      <div class="drawer-footer" id="cart-footer"></div>
+    </aside>
+
+    <!-- Product Detail Modal -->
+    <div class="modal-wrap" id="detail-modal" role="dialog" aria-modal="true" aria-label="Produktdetaljer">
+      <div class="modal-dialog">
+        <button type="button" class="icon-close modal-close-float" data-close-modal aria-label="Stäng">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18" /><line x1="6" y1="6" x2="18" y2="18" /></svg>
+        </button>
+        <div id="detail-modal-inner"></div>
+      </div>
+    </div>
+
+    <!-- Checkout Modal -->
+    <div class="modal-wrap" id="checkout-modal" role="dialog" aria-modal="true" aria-label="Kassa">
+      <div class="modal-dialog narrow">
+        <button type="button" class="icon-close modal-close-float" data-close-modal aria-label="Stäng kassa">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18" /><line x1="6" y1="6" x2="18" y2="18" /></svg>
+        </button>
+        <div class="modal-body-pad" id="checkout-modal-body"></div>
+      </div>
+    </div>
+
+    <!-- B2B Inquiry Modal -->
+    <div class="modal-wrap" id="b2b-modal" role="dialog" aria-modal="true" aria-label="Företagsförfrågan">
+      <div class="modal-dialog narrow">
+        <button type="button" class="icon-close modal-close-float" data-close-modal aria-label="Stäng">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18" /><line x1="6" y1="6" x2="18" y2="18" /></svg>
+        </button>
+        <div class="modal-body-pad" id="b2b-form-wrap"></div>
+      </div>
+    </div>
+
+    <!-- Toast Notification -->
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
